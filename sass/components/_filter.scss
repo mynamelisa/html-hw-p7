@@ -1,0 +1,14 @@
+.filter {
+  padding-bottom: 0;
+}
+
+.filter__list {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.filter__item + .filter__item {
+  margin-left: 8px;
+}
